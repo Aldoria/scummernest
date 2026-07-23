@@ -55,6 +55,7 @@ jobs:
             configFlags: --enable-discord --enable-faad --enable-gif --enable-mikmod --enable-mpeg2 --enable-vpx
             useNasm: 'true'
           - platform: x64
+            buildArtifacts: 'true'
             arch: x64
             triplet: x64-windows
             configFlags: --enable-discord --enable-faad --enable-gif --enable-mikmod --enable-mpeg2 --enable-vpx
