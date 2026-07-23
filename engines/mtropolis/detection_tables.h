@@ -632,7 +632,7 @@ static const MTropolisGameDescription gameDescriptions[] = {
 	  // Published by Emme, 1998
 		{
 			"albert1",
-			MetaEngineDetection::GAME_NOT_IMPLEMENTED,
+			nullptr,
 			{
 				{"MTPLAY95.EXE", 0, "0e513dac9d2a0d7cfcdc670cab2a9bda", 757760},
 				{"album421.MPL", 0, "2f3cc30f13ecc99e8e4818353cef1d34", 18879823},
@@ -646,7 +646,7 @@ static const MTropolisGameDescription gameDescriptions[] = {
 			},
 			Common::FR_FRA,
 			Common::kPlatformWindows,
-			ADGF_UNSUPPORTED,
+			ADGF_UNSTABLE,
 			GUIO0()
 		},
 		GID_ALBERT1,
